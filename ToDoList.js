@@ -5,13 +5,13 @@ let list = ["tea", "bath"];
 
 btn.addEventListener("click", (event) => 
     {
-
+hyse bhai hyse
     if((inp.value == NaN)) {
         list.push(inp.value);
     }
 
     for(el of list) 
-        
+
         {
         let li = document.createElement("li");
         li.innerText = el;
