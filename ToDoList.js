@@ -10,7 +10,8 @@ btn.addEventListener("click", (event) =>
         list.push(inp.value);
     }
 
-    for(el of list) {
+    for(el of list) 
+        {
         let li = document.createElement("li");
         li.innerText = el;
 
