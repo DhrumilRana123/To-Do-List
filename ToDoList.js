@@ -3,7 +3,8 @@ let inp = document.querySelector("input");
 let ul = document.querySelector("ul");
 let list = ["tea", "bath"];
 
-btn.addEventListener("click", (event) => {
+btn.addEventListener("click", (event) => 
+    {
 
     if((inp.value == NaN)) {
         list.push(inp.value);
