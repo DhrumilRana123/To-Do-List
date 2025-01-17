@@ -11,6 +11,7 @@ btn.addEventListener("click", (event) =>
     }
 
     for(el of list) 
+        
         {
         let li = document.createElement("li");
         li.innerText = el;
