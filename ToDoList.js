@@ -1,12 +1,17 @@
 let btn = document.querySelector("button");
+
 let inp = document.querySelector("input");
+
 let ul = document.querySelector("ul");
+
 let list = ["tea", "bath"];
 
 btn.addEventListener("click", (event) => 
+
     {
 // hyse bhai hyse
     if((inp.value == NaN)) {
+        
         list.push(inp.value);
     }
 
